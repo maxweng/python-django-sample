@@ -96,14 +96,13 @@ DAO_TEST = bool(os.environ.get('DAO_TEST'))
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ['MYSQL_INSTANCE_NAME'],
-        'USER': os.environ['MYSQL_USERNAME'],
-        'PASSWORD': os.environ['MYSQL_PASSWORD'],
-        'HOST': os.environ['MYSQL_PORT_3306_TCP_ADDR'],
-        'PORT': os.environ['MYSQL_PORT_3306_TCP_PORT']
+        'NAME': 'python-django-sample',
+        'USER': 'uquAHKIg7jvUF2YL',
+        'PASSWORD': 'pSsEWTLoaxOAUyC1H',
+        'HOST': '10.10.26.58',
+        'PORT': 3306
     }
 }
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
